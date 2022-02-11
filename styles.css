@@ -1,0 +1,113 @@
+#hero {
+  height: 800px;
+  background-image: url("images/ocean.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgba(171, 232, 240, 0.6);
+  box-shadow: 5px 5px 9px rgb(68, 67, 67);
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 250px;
+}
+
+#hero-content h1 {
+    color: rgb(110,78,222) ;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: "Raleway" , sans-serif;
+    margin: 0;
+}
+
+
+#hero-content p {
+    color: rgb(10,88,212) ;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgba(171, 232, 240, 0.6);
+    padding: 15px 25px; 
+    font-size: bold;
+    font-size: 25px;
+    color: black;
+    box-shadow: 3px 5px 9px rgb(68, 67, 67);
+    transition: background-color ease-out 0.5s;
+}
+
+#hero-content a:hover {
+background-color:rgb(148, 170, 243) ;
+} 
+
+.destination img{
+  height: 12.5rem;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(0,0,0);
+  border-radius: 0.8rem;
+  object-fit: cover;
+}
+
+.destination {
+  margin: 0 20px;
+}
+
+#destination {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destination p {
+text-align: center;
+text-transform: uppercase;
+font-size: 27px;
+color:rgb(124,123,124);
+margin: 20px 0;
+}
+
+.destination strong {
+  color: rgb(0,160,117);
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+}
+
+#highlights {
+  padding: 30px;
+  background: linear-gradient(175deg, rgb(128, 160, 250) , rgb(106, 221, 213)) ;
+}
+
+footer {background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(125, 225, 238) 0%, rgba(145,192,241,1) 45.5% );
+  padding: 15px;
+}
+
+footer li {
+  width: 70px;
+  height: 34px;
+  margin: 0 40px;
+}
+
+footer img {
+  width: 45px;
+  height: 45px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}

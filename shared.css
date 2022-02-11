@@ -1,0 +1,57 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#page-logo a {
+  padding: 20px;
+  font-family: "Oleo Script", sans-serif;
+  font-size: 2.9rem;
+  color: rgba(77, 219, 255, 0.989);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+header a {
+  color: rgba(77, 219, 255, 0.989);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  padding: 12px;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+header nav a:hover {
+  color: rgb(59, 245, 245);
+  background-color: rgba(176, 233, 235, 0.98);
+  border-radius: 7px;
+}
+
+
